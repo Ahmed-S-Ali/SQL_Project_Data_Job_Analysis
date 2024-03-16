@@ -183,3 +183,8 @@ From the analysis, several key insights emerged:
 ### Closing Thoughts
 
 This project has not only enhanced my **SQL** skills but also provided valuable insights into the data analyst job market. The findings serve as a guide for prioritizing skill development and job search efforts. Aspiring data analysts including me can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration underscores the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
+
+# Resources
+> [!NOTE]  
+> **Database Files:** [Link to the Database](https://drive.google.com/drive/folders/1egWenKd_r3LRpdCf4SsqTeFZ1ZdY3DNx)    
+> **Source:** [Luke Barousse](https://github.com/lukebarousse)
