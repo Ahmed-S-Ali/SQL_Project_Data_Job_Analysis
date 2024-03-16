@@ -113,18 +113,18 @@ Here's a breakdown of the results for top-paying skills for Data Analysts:
 
 - Cloud Computing Expertise: Familiarity with cloud and data engineering tools such as Elasticsearch, Databricks, and GCP underscores the growing importance of cloud-based analytics environments. Cloud proficiency significantly boosts earning potential in data analytics.
 
-| Skill         | Average Salary |
-| ------------- | :------------: |
-| pyspark       |    208,172     |
-| Bitbucket     |    189,155     |
-| Watson        |    160,515     |
-| Couchbase     |    160,515     |
-| Datarobot     |    155,486     |
-| Gitlab        |    154,500     |
-| Swift         |    153,750     |
-| Jupyter       |    152,777     |
-| Pandas        |    151,821     |
-| Elasticsearch |    145,000     |
+| Skill         | Average Salary ($) |
+| ------------- | :----------------: |
+| pyspark       |    208,172         |
+| Bitbucket     |    189,155         |
+| Watson        |    160,515         |
+| Couchbase     |    160,515         |
+| Datarobot     |    155,486         |
+| Gitlab        |    154,500         |
+| Swift         |    153,750         |
+| Jupyter       |    152,777         |
+| Pandas        |    151,821         |
+| Elasticsearch |    145,000         |
 
 _Table of the average salary for the top 10 paying skills for data analysts_
 
@@ -135,18 +135,18 @@ Combining insights from demand and salary data, this query aimed to pinpoint ski
 > [!TIP]  
 > Query: [Optimal Skills](project_queries/5_the_optimal_skills.sql)
 
-| Skills     | Demand Count | Average Salary |
-| ---------- | :----------: | -------------: |
-| Go         |      27      |         115320 |
-| Confluence |      11      |         114210 |
-| Hadoop     |      22      |         113193 |
-| Snowflake  |      37      |         112948 |
-| Azure      |      34      |         111225 |
-| BigQuery   |      13      |         109654 |
-| AWS        |      32      |         108317 |
-| Java       |      17      |         106906 |
-| SSIS       |      12      |         106683 |
-| Jira       |      20      |         104918 |
+| Skills     | Demand Count | Average Salary ($)  |
+| ---------- | :----------: | ------------------: |
+| Go         |      27      |         115,320     |
+| Confluence |      11      |         114,210     |
+| Hadoop     |      22      |         113,193     |
+| Snowflake  |      37      |         112,948     |
+| Azure      |      34      |         111,225     |
+| BigQuery   |      13      |         109,654     |
+| AWS        |      32      |         108,317     |
+| Java       |      17      |         106,906     |
+| SSIS       |      12      |         106,683     |
+| Jira       |      20      |         104,918     |
 
 _Table of the most optimal skills for data analyst sorted by salary_
 
