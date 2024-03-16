@@ -1,15 +1,16 @@
+-- Make sure to change the [file_path] with your actual path.
 COPY company_dim
-FROM 'E:/Programming/Projects/SQL_Project/csv_files/company_dim.csv'
-DELIMITER ',' CSV HEADER;
+FROM '[file_path]\projects_databases\company_dim.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY job_postings_fact
-FROM 'E:/Programming/Projects/SQL_Project/csv_files/job_postings_fact.csv'
-DELIMITER ',' CSV HEADER;
+FROM '[file_path]\projects_databases\job_postings_fact.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY skills_dim
-FROM 'E:/Programming/Projects/SQL_Project/csv_files/skills_dim.csv'
-DELIMITER ',' CSV HEADER;
+FROM '[file_path]\projects_databases\skills_dim.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 COPY skills_job_dim
-FROM 'E:/Programming/Projects/SQL_Project/csv_files/skills_job_dim.csv'
-DELIMITER ',' CSV HEADER;
+FROM '[file_path]\projects_databases\skills_job_dim.csv'
+WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
